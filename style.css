@@ -1,0 +1,42 @@
+h1 {
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(198, 22, 229);
+    text-align: center;
+    border: solid 5px black;
+}
+
+img {
+    width: 225px;
+    height: 275px;
+    
+}
+
+h2 {
+    border-bottom: solid;
+    border-color: cornflowerblue;
+    padding-right: 100px;
+    width: 2.8%;
+}
+
+h3 {
+    border-bottom: solid;
+    border-color: cornflowerblue;
+    padding-right: 100px;
+    width: 1%;
+}
+
+button {
+    background-color: lightgray;
+    border: solid 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
