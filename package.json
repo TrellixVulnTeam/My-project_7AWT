@@ -5,14 +5,17 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-
-  
-},
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipesilber/My-project.git"
+  },
   "author": "Felipe Silber",
   "license": "ISC",
   "bugs": {
-
+    "url": "https://github.com/felipesilber/My-project/issues"
   },
+  "homepage": "https://github.com/felipesilber/My-project#readme",
   "dependencies": {
     "express": "^4.18.1",
     "sqlite3": "^5.0.8"
